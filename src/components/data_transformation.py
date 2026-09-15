@@ -24,7 +24,7 @@ class DataTransformation:
 
     def get_data_transformer_object(self):
         '''
-        This function si responsible for data trnasformation
+        This function is responsible for data transformation and data preprocessing. It creates a preprocessing object that can be used to transform the input data before feeding it into a machine learning model. The function defines the numerical and categorical columns, sets up pipelines for each type of data, and combines them into a ColumnTransformer.
         
         '''
         try:
